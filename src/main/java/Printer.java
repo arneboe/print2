@@ -71,7 +71,7 @@ public class Printer {
     private BufferedImage scaleImage(BufferedImage input)
     {
         if(input.getWidth() < maxImgWidth) {
-            //return input;
+            return input;
         }
 
         final int targetWidth = maxImgWidth;
